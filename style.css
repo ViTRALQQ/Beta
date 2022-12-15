@@ -1,0 +1,48 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@import url(https://fonts.googleapis.com/css2?family=Roboto:wght@100;200;300;400;500;600;800;900&display=swap);
+
+body {
+    font-family: 'Roboto', sans-serif;
+
+}
+
+#Zero {
+    min-width: 100vh;
+    min-height: 100hv;
+}
+
+.con {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #c7c7c7;
+    width: 100%;
+    padding: 20px;
+}
+
+#beta-1 {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: rgb(165, 163, 163);
+    color: rgb(255, 0, 0);
+    cursor: pointer;
+}
+
+#beta-1:hover {
+    background: #ddd;
+    color: black;
+}
+
+html {
+    overflow-x: hidden;
+}
+
+html {
+    overflow-y: hidden;
+}
